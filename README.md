@@ -18,4 +18,14 @@ GlideMate의 간단한 사용법으로는 먼저 첫 화면에서 회원가입�
 
 2. 프로젝트 설치법입니다.
 프로젝트를 download as zip으로 받아주시면 압축 파일 안에 많은 JavaScript 코드와 Python 코드, 그리고 활공장 이미지를 모아놓은 압축 파일이 있을 것입니다.
-먼저 data.sql
+먼저 data.sql 안에 있는 설명대로 테이블을 생성하고 쿼리문을 실행해 주시면 프로젝트 실행을 위한 기본 데이터베이스 구축이 끝납니다.
+그리고 JavaScript 코드들을 보시면 코드명 뒤쪽에 Screens라고 붙은 코드들을 프로젝트 메인에서 screens 폴더를 만들어 주신 후 그 폴더 내부로 옮겨 주시면 됩니다.
+그리고 Asset1 ~ Asset4까지의 압축파일을 풀어서 프로젝트 메인에서 assets 폴더를 만들어 주시고 그 안에 압축을 푼 활공장 이미지를 전부 넣어주시면 됩니다.
+프로젝트 실행을 위한 서버(App.py)와 메인 코드(App.js)를 실행해 주셔야 하는데,
+App.js를 실행하시기 이전에 App.py를 먼저 실행해주시고 콘솔 창에 뜨는 program is running on ___.___.___.___:5000에 있는 ip 주소를 복사해 주시고,
+screens 폴더 안에 있는 코드들을 보시면 ip 주소가 적혀있는 코드가 있을텐데 그 ip 주소를 교수님께서 실행하실 컴퓨터의 ip 주소로 전부 바꾸어 주신 다음에 실행해 주시면 됩니다.
+
+
+https://docs.google.com/document/d/1DmFmsisazAKg9ldPsQAl_C8OHNmuuW6jx7fKe3jF2CM/edit?usp=sharing
+
+최종 보고서 양식은 이 링크에 있습니다.
